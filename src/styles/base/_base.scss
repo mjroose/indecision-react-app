@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%;  //16px is default.  This makes it 10px for easier math below.
+}
+
+body {
+  background-color: $dark-blue;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
